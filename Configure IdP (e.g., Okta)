@@ -1,0 +1,11 @@
+On Okta/Azure AD:
+
+App Name: SAML Demo
+
+Single sign-on URL: http://localhost:3000/login/callback
+
+Audience URI (SP Entity ID): node-saml-demo
+
+Attribute Statements: map fields like email, firstName, etc.
+
+Download the IdP certificate and save it as cert/idp.crt.
