@@ -1,0 +1,40 @@
++---------+             +---------------+             +------------------+
+|         |             |               |             |                  |
+|  User   +-----------> |  Service      |             | Identity         |
+| (Browser)             |  Provider (SP)|             | Provider (IdP)   |
+|         |             |               |             |                  |
++----+----+             +-------+-------+             +--------+---------+
+     |                          |                              |
+     |     (1) User accesses    |                              |
+     |     SP (e.g. app)        |                              |
+     |------------------------->|                              |
+     |                          |                              |
+     |                          |                              |
+     |     (2) Redirect user    |                              |
+     |     to IdP SSO URL       |                              |
+     |<-------------------------|                              |
+     |                          |                              |
+     |------------------------->|     (3) User authenticates   |
+     |                          |     with IdP (Login)         |
+     |                          |----------------------------->|
+     |                          |                              |
+     |                          |     (4) IdP sends SAML       |
+     |                          |     assertion to SP (via     |
+     |                          |     browser, POST redirect)  |
+     |                          |<-----------------------------|
+     |<-------------------------|                              |
+     |                          |                              |
+     |     (5) SP validates     |                              |
+     |     SAML response        |                              |
+     |     and logs user in     |                              |
+     |------------------------->|                              |
+     |                          |                              |
+
+💬 Flow Explained:
+
+Step | Description
+1 | User attempts to access a protected resource on the Service Provider (SP).
+2 | SP redirects the user to the Identity Provider's (IdP) SSO endpoint with a SAML request.
+3 | The user logs in to the IdP (if not already authenticated).
+4 | IdP responds with a SAML assertion, posted to the SP via the user’s browser.
+5 | SP validates the SAML response, extracts the user identity, and grants access.
