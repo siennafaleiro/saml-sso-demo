@@ -1,7 +1,7 @@
 # saml-sso-demo
 A simple SAML SSO demo application that showcases how to implement Single Sign-On (SSO) using the Security Assertion Markup Language (SAML) protocol. Ideal for testing and understanding SAML-based authentication workflows.
 
-Absolutely 💡! Implementing Security Assertion Markup Language (SAML) is a crucial topic when studying for the CompTIA Cloud+ (CV0-003) exam, especially around identity management, authentication, and secure cloud access. Let's break this down into a detailed technical guide with a GitHub-centric step-by-step workflow, so you can demonstrate SAML-based SSO using a sample app and an identity provider (IdP) like Okta or Azure AD.
+Absolutely 💡! Implementing Security Assertion Markup Language (SAML) is a crucial topic when studying for the [CompTIA Cloud+ (CV0-003)](https://www.comptia.org/certifications/cloud) exam, especially around identity management, authentication, and secure cloud access. Let's break this down into a detailed technical guide with a GitHub-centric step-by-step workflow, so you can demonstrate SAML-based SSO using a sample app and an identity provider (IdP) like Okta or Azure AD.
 
 **🔐 SAML: High-Level Understanding (CompTIA Cloud+ Context)**
 
@@ -26,3 +26,17 @@ Absolutely 💡! Implementing Security Assertion Markup Language (SAML) is a cru
 | ✔️ 3  | Generate certs and configure passport-saml  |
 | ✔️ 4  | Run and test end-to-end  |
 | ✔️ 5  | Push to GitHub for documentation/demo  |
+
+**Reference link**
+
+From IdP
+http://localhost/idp
+From SP
+http://localhost/sp
+https://www.comptia.org/certifications/cloud
+https://www.edusum.com/comptia/cv0-003-comptia-cloud
+https://github.com/PacktPublishing/
+https://chatgpt.com/
+https://www.comptia.org/certifications
+
+
