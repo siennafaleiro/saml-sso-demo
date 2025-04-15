@@ -19,9 +19,10 @@ Absolutely 💡! Implementing Security Assertion Markup Language (SAML) is a cru
 
 ✅ Summary Checklist
 
-Step	Description
-✔️ 1	Set up Node app with SAML libraries
-✔️ 2	Configure IdP (Okta/Azure)
-✔️ 3	Generate certs and configure passport-saml
-✔️ 4	Run and test end-to-end
-✔️ 5	Push to GitHub for documentation/demo
+| Step  | Description |
+| ------------- | ------------- |
+| ✔️ 1  | Set up Node app with SAML libraries  |
+| ✔️ 2  | Configure IdP (Okta/Azure)  |
+| ✔️ 3  | Generate certs and configure passport-saml  |
+| ✔️ 4  | Run and test end-to-end  |
+| ✔️ 5  | Push to GitHub for documentation/demo  |
