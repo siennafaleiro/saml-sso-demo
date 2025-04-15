@@ -27,6 +27,10 @@ Absolutely 💡! Implementing Security Assertion Markup Language (SAML) is a cru
 | ✔️ 4  | Run and test end-to-end  |
 | ✔️ 5  | Push to GitHub for documentation/demo  |
 
+**Matplotlib Chart**
+
+![output](https://github.com/user-attachments/assets/fd00e3e8-857d-4d0a-b4df-08ccd2efe277)
+
 **Reference link**
 
 From IdP
@@ -42,5 +46,4 @@ http://localhost/sp
 | 3  | https://github.com/PacktPublishing/  |
 | 4  | https://chatgpt.com/  |
 | 5  | https://www.comptia.org/certifications  |
-
 
