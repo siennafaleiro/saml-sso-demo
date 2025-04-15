@@ -1,0 +1,13 @@
+/views/home.ejs
+
+<html>
+<body>
+  <h1>SAML SSO Demo</h1>
+  <% if (user) { %>
+    <p>Welcome, <%= user.nameID %></p>
+    <a href="/logout">Logout</a>
+  <% } else { %>
+    <a href="/login">Login with SAML</a>
+  <% } %>
+</body>
+</html>
