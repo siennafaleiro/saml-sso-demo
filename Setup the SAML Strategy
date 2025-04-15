@@ -1,0 +1,16 @@
+/config/samlStrategy.js
+
+const SamlStrategy = require('passport-saml').Strategy;
+const fs = require('fs');
+
+module.exports = new SamlStrategy({
+  entryPoint: 'https://{your-okta-domain}/sso/saml',
+  issuer: 'node-saml-demo',
+  callbackUrl: 'http://localhost:3000/login/callback',
+  cert: fs.readFileSync('./cert/idp.crt', 'utf-8'),  // From Okta/AzureAD
+  privateCert: fs.readFileSync('./cert/sp.key', 'utf-8'),
+  decryptionPvk: fs.readFileSync('./cert/sp.key', 'utf-8'),
+  acceptedClockSkewMs: -1
+}, (profile, done) => {
+  return done(null, profile);
+});
