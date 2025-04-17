@@ -1,0 +1,47 @@
+1. What is the saml-sso-demo GitHub repository about?
+Answer:
+The saml-sso-demo repository provides a working example of how to implement Single Sign-On (SSO) using the SAML (Security Assertion Markup Language) protocol. It's a learning resource for developers to understand SAML-based authentication flows.
+
+2. What technologies are used in the saml-sso-demo project?
+Answer:
+The demo typically uses web development tools like JavaScript, Node.js (or other backend languages), and standard SAML libraries to simulate Identity Provider (IdP) and Service Provider (SP) interactions.
+
+3. How does SAML SSO work in this demo?
+Answer:
+The demo illustrates the SAML authentication flow where a user attempts to access a service, gets redirected to an Identity Provider for authentication, and upon successful login, is redirected back to the service with a valid SAML assertion.
+
+4. Can this demo be used in a real-world application?
+Answer:
+While it's a great starting point, this demo is intended for educational purposes. For production, additional layers of security, error handling, and proper configuration with a trusted IdP are necessary.
+
+5. Which Identity Providers are compatible with this SAML SSO demo?
+Answer:
+This demo can be configured to work with popular Identity Providers like Okta, Azure Active Directory, OneLogin, and Auth0, provided you configure the correct metadata and endpoints.
+
+6. What are the prerequisites to run the demo?
+Answer:
+You’ll typically need:
+
+A basic understanding of SAML
+
+Node.js or the relevant runtime
+
+A configured Identity Provider or a mock IdP
+
+Correct configuration in the config files or environment variables
+
+7. Is this demo suitable for learning how to implement SSO in enterprise apps?
+Answer:
+Yes, it provides a clear, simplified example of the SAML SSO workflow, which is commonly used in enterprise environments to centralize authentication.
+
+8. How can I customize the saml-sso-demo for my organization?
+Answer:
+You can update the SAML metadata, endpoints, certificates, and UI elements to match your organization's IdP and branding. Be sure to secure sensitive data and follow best practices.
+
+9. Are there any security concerns to be aware of?
+Answer:
+Yes. Always validate SAML assertions, use HTTPS, securely manage private keys and certificates, and sanitize user input to prevent SAML-specific attacks like XML signature wrapping.
+
+10. Where can I find more details or contribute to this demo?
+Answer:
+You can visit the https://github.com/siennafaleiro/saml-sso-demo to explore the code, raise issues, or contribute enhancements via pull requests.
