@@ -22,13 +22,10 @@ This demo can be configured to work with popular Identity Providers like Okta, A
 Answer:
 You’ll typically need:
 
-A basic understanding of SAML
-
-Node.js or the relevant runtime
-
-A configured Identity Provider or a mock IdP
-
-Correct configuration in the config files or environment variables
+- A basic understanding of SAML
+- Node.js or the relevant runtime
+- A configured Identity Provider or a mock IdP
+- Correct configuration in the config files or environment variables
 
 7. Is this demo suitable for learning how to implement SSO in enterprise apps?
 Answer:
