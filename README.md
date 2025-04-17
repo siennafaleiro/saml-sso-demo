@@ -44,6 +44,5 @@ http://localhost/sp
 | 1  | https://www.comptia.org/certifications/cloud  |
 | 2  | https://www.edusum.com/comptia/cv0-003-comptia-cloud  |
 | 3  | https://github.com/PacktPublishing/  |
-| 4  | [https://chatgpt.com/](https://chatgpt.com/share/67fdfbfb-8e3c-8008-a54b-25203f83a671)  |
-| 5  | https://www.comptia.org/certifications  |
+| 4  | https://www.comptia.org/certifications  |
 
