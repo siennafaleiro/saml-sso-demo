@@ -41,4 +41,4 @@ Yes. Always validate SAML assertions, use HTTPS, securely manage private keys an
 
 10. Where can I find more details or contribute to this demo?
 Answer:
-You can visit the https://github.com/siennafaleiro/saml-sso-demo to explore the code, raise issues, or contribute enhancements via pull requests.
+You can [visit](https://github.com/siennafaleiro/saml-sso-demo) the https://github.com/siennafaleiro/saml-sso-demo to explore the code, raise issues, or contribute enhancements via pull requests.
